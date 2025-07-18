@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Harishchandragad Trek</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f4f4f4; }
+    header { background: url('hero-image.jpg') no-repeat center center/cover; height: 70vh; color: white; display: flex; align-items: center; justify-content: center; text-align: center; }
+    header h1 { font-size: 3rem; background-color: rgba(0,0,0,0.5); padding: 20px; border-radius: 10px; }
+    nav { background: #222; padding: 10px; text-align: center; }
+    nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
+    section { padding: 40px 20px; max-width: 1000px; margin: auto; }
+    .section-title { text-align: center; margin-bottom: 20px; }
+    .cta { background: #ff6600; color: white; padding: 15px 25px; text-decoration: none; display: inline-block; margin-top: 20px; border-radius: 5px; }
+    .gallery img { width: 100%; max-width: 300px; margin: 10px; border-radius: 10px; }
+    form { background: #fff; padding: 20px; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.1); max-width: 600px; margin: 20px auto; }
+    form input, form select, form textarea { width: 100%; padding: 10px; margin: 10px 0; border: 1px solid #ccc; border-radius: 5px; }
+    form button { background: #ff6600; color: white; border: none; padding: 12px 20px; border-radius: 5px; cursor: pointer; }
+    form button:hover { background: #e65c00; }
+    footer { background: #222; color: white; text-align: center; padding: 20px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Trek to Harishchandragad – A Journey Beyond the Clouds</h1>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#itinerary">Itinerary</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2 class="section-title">About the Trek</h2>
+    <p>Explore the stunning Sahyadris with our guided trek to Harishchandragad. Experience the thrill of climbing to Konkan Kada, discovering ancient temples like Harishchandreshwar, and camping under the stars. Perfect for solo adventurers, friend groups, and nature lovers.</p>
+    <a href="#contact" class="cta">Book Now</a>
+  </section>
+
+  <section id="itinerary">
+    <h2 class="section-title">Itinerary</h2>
+    <ul>
+      <li><strong>Day 1:</strong> Start from Khireshwar village, trek through dense forest, reach top by evening, camp overnight.</li>
+      <li><strong>Day 2:</strong> Visit Harishchandreshwar Temple, Konkan Kada and Kedareshwar Cave. Begin descent and return.</li>
+    </ul>
+  </section>
+
+  <section id="gallery">
+    <h2 class="section-title">Gallery</h2>
+    <div class="gallery">
+      <img src="DSCN9584-compressed.jpg" alt="Harishchandreshwar Temple">
+      <img src="102_2506.jpg" alt="Konkan Kada View">
+      <img src="Harishchandragad-Trek-and-Camping.jpg" alt="Camping on the Fort">
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2 class="section-title">Contact & Booking</h2>
+    <p>📞 Phone: +91-9137545116<br>
+    📧 Email: ishamsingh1310@gmail.com<br>
+    📍 Pickup Location: Pune Station</p>
+    <a href="https://wa.me/9137545116" class="cta">Chat on WhatsApp</a>
+
+    <form action="mailto:trekharishchandragad@gmail.com" method="post" enctype="text/plain">
+      <h3 style="text-align:center">Booking Form</h3>
+      <input type="text" name="Name" placeholder="Your Full Name" required>
+      <input type="email" name="Email" placeholder="Your Email Address" required>
+      <input type="tel" name="Phone" placeholder="Your Phone Number" required>
+      <select name="Trek Date" required>
+        <option value="">Select Trek Date</option>
+        <option value="27-28 July">27-28 July</option>
+        <option value="3-4 August">3-4 August</option>
+        <option value="Custom Date">Custom Date</option>
+      </select>
+      <textarea name="Message" rows="4" placeholder="Any special requests or questions?"></textarea>
+      <button type="submit">Submit Booking</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Harishchandragad Trek Adventures. All rights reserved.</p>
+  </footer>
+</body>
+</html>
+<style>
+  body {
+    background-image: url('harishchandragad-bg.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    /* Optional: add a slight overlay for readability */
+    position: relative;
+    min-height: 100vh;
+  }
+  /* Optional: add a semi-transparent overlay for better text visibility */
+  body::before {
+    content: "";
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(0,0,0,0.3);
+    z-index: -1;
+    pointer-events: none;
+  }
+</style>
+
